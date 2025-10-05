@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Chronos Store</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<style>
+        body {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-[#221d11]">
+<div class="relative flex h-auto min-h-screen w-full flex-col dark group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<div class="px-40 flex flex-1 justify-center py-5">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#483d23] px-10 py-3">
+<div class="flex items-center gap-4 text-white">
+<div class="size-4">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M39.475 21.6262C40.358 21.4363 40.6863 21.5589 40.7581 21.5934C40.7876 21.655 40.8547 21.857 40.8082 22.3336C40.7408 23.0255 40.4502 24.0046 39.8572 25.2301C38.6799 27.6631 36.5085 30.6631 33.5858 33.5858C30.6631 36.5085 27.6632 38.6799 25.2301 39.8572C24.0046 40.4502 23.0255 40.7407 22.3336 40.8082C21.8571 40.8547 21.6551 40.7875 21.5934 40.7581C21.5589 40.6863 21.4363 40.358 21.6262 39.475C21.8562 38.4054 22.4689 36.9657 23.5038 35.2817C24.7575 33.2417 26.5497 30.9744 28.7621 28.762C30.9744 26.5497 33.2417 24.7574 35.2817 23.5037C36.9657 22.4689 38.4054 21.8562 39.475 21.6262ZM4.41189 29.2403L18.7597 43.5881C19.8813 44.7097 21.4027 44.9179 22.7217 44.7893C24.0585 44.659 25.5148 44.1631 26.9723 43.4579C29.9052 42.0387 33.2618 39.5667 36.4142 36.4142C39.5667 33.2618 42.0387 29.9052 43.4579 26.9723C44.1631 25.5148 44.659 24.0585 44.7893 22.7217C44.9179 21.4027 44.7097 19.8813 43.5881 18.7597L29.2403 4.41187C27.8527 3.02428 25.8765 3.02573 24.2861 3.36776C22.6081 3.72863 20.7334 4.58419 18.8396 5.74801C16.4978 7.18716 13.9881 9.18353 11.5858 11.5858C9.18354 13.988 7.18717 16.4978 5.74802 18.8396C4.58421 20.7334 3.72865 22.6081 3.36778 24.2861C3.02574 25.8765 3.02429 27.8527 4.41189 29.2403Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">Chronos Store</h2>
+</div>
+<div class="flex flex-1 justify-end gap-8">
+<div class="flex items-center gap-9">
+<a class="text-white text-sm font-medium leading-normal hover:text-[#ecab13]" href="#">Inicio</a>
+<a class="text-white text-sm font-medium leading-normal hover:text-[#ecab13]" href="#">Productos</a>
+<a class="text-white text-sm font-medium leading-normal hover:text-[#ecab13]" href="#">Sobre nosotros</a>
+<a class="text-white text-sm font-medium leading-normal hover:text-[#ecab13]" href="#">Contacto</a>
+</div>
+<button class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#483d23] text-white gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5 hover:bg-[#ecab13] hover:text-[#221d11]">
+<span class="material-symbols-outlined text-white">shopping_cart</span>
+</button>
+</div>
+</header>
+<div class="mt-5">
+<div class="@container">
+<div class="@[480px]:p-4">
+<div class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-lg items-center justify-center p-4" data-alt="A luxurious watch on a dark background" style='background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.7) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuDxLEkwYzvI1jwqFDVd8PmdO4v5FAFlElQZj5Hw9b4u52uhyEmMbur7qg3OGERS0nRpVrntDWcG4OmnTmgqiIDsaPGF8215xX0-Cb9lWA4y9OMKaw_0bnWqEcOeb292hORAx-VZQf9cszlrWrgRL8UzPIYIWoqyuOkcRi76ZJunAeKyXHbYEgHO9c_bBkZJRV7SVILs5ISIO6tFH6MQqiEbpQ0qwyFefDW7lkmer_psejPV-AL8dzNi1UPUztRYoqQwkiJjAuLHsSbK");'>
+<h1 class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] text-center">Descubre la Excelencia en Cada Segundo</h1>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#ecab13] text-[#221d11] text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] hover:bg-[#c9b892]">
+<span class="truncate">Explorar Colección</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Productos Destacados</h2>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+<div class="flex flex-col gap-3 pb-3">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" data-alt="A classic luxury watch with a leather strap" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD7kw2P_iEDLyCA1m9cd6FTEs8rltUUwaSEWWVnTb7DsvIhjFr7oqDZdSoAwo-uXDt4Thry5irdeedL1EWk-uFt3Pw68sN1LL6Zgj-LazQK-c_EZOxqHepx40bi4AvWumKRvpOvug7_rfiOBVphvTnGfAcPM-6ITp4cZTpovcl4sTUtOCZSqi_paZeSRzPl-TmXFcc4OvU70mACJVDKZd394VtOhhfmLIcsqeNRYR3wO_xaURemFsGqBiwqcbOIzGFA2lP8rTyUT7_m");'></div>
+<div>
+<p class="text-white text-base font-medium leading-normal">Reloj de Lujo Clásico</p>
+<p class="text-[#c9b892] text-sm font-normal leading-normal">$5,000</p>
+<a class="text-[#ecab13] text-sm font-normal leading-normal hover:underline" href="#">Ver Detalles</a>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" data-alt="An elegant chronograph watch with a steel bracelet" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCKIxGwMdot9QvUfmuVBy4u_gHUL1TAT4nSHA2UKMXZC0iw_Tid8Gs0qaVoq1I10AOlG2oQpx6a9VUwAmD3jVF3Ac4XYvrh-dsBNfWKpgMcYXIxKXPsp26UfNz1u4zN0ThIPkUnMhvAMhrHMeyD1838R6I_4_Jqd1uog2XH_C-RJTzLCR8Qz6HVDurwkBnvumWgsqOPCkKEwxkl5BnK4gUDsJ408FBlKKtlGYQGRwFCqLW13w3C3ZHCchsihnxAFYLhAXJlasbdHWOi");'></div>
+<div>
+<p class="text-white text-base font-medium leading-normal">Cronógrafo Elegante</p>
+<p class="text-[#c9b892] text-sm font-normal leading-normal">$7,500</p>
+<a class="text-[#ecab13] text-sm font-normal leading-normal hover:underline" href="#">Ver Detalles</a>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" data-alt="A high-end sports watch with a rubber strap" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAVqjh2a_XO4ObkVHTXfNisrQ-tf7C0HVz4VD_K0unPIsDjGveeVv6IEhA-z8EETcEa2Cs_WT3T3ZXCXliW9u1VuOa3YJJ6CEy_f-Aowl52exqszAWER3BaqzUeTJagGnOLZo-KRG7rmq7YZDBcv-lRWd78r2QWejfUJRSmMb02BfI_pi4mossg5UBvXs2n4mD6L2zg9mgrxNG3rujbkgi-5kcuUp9qYUXZXKf0LlIO-Y4-4fN6Nz1a0DMTsVKowI4zvTWizMRYm54k");'></div>
+<div>
+<p class="text-white text-base font-medium leading-normal">Reloj Deportivo de Alta Gama</p>
+<p class="text-[#c9b892] text-sm font-normal leading-normal">$6,200</p>
+<a class="text-[#ecab13] text-sm font-normal leading-normal hover:underline" href="#">Ver Detalles</a>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" data-alt="A limited edition gold watch" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCv955k7ZrxwG5PB_ldx0iM98ztAqm1wMc-3FIMFHxMGMJsfZqKZ3KXWloHv7vHxAw-UljOq4Ao6JOCNKn_VS-RLNlvJJmHEBWdLBsCsPWcX8vVWgx9uPpilaQhnZQ_Y-swWcYmqrO5frTDK0YxNn24Bm62hITurbaIzrhm1GVB6043Mg1R97jVDLbyoejVM0Gbmbpa7NYdWwvD_h0IlVLDVjlXvbEL9VKULlHrMjytQvVuIRdwzjIRfL_8T1_Ftmh-hmfaanrub9j8");'></div>
+<div>
+<p class="text-white text-base font-medium leading-normal">Edición Limitada Oro</p>
+<p class="text-[#c9b892] text-sm font-normal leading-normal">$12,000</p>
+<a class="text-[#ecab13] text-sm font-normal leading-normal hover:underline" href="#">Ver Detalles</a>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" data-alt="A professional diving watch" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBo28p07EVx49YzzrM-c4k-HJ3dJ5ZP-F8lQHZCs_VLG9I6ZNohtx-bkqesXUXX1-32gCRVh9KLlTX_brtyYT7b2uvTRGzWCw6SrpmwWrUacAEPknB5-wdo1KCI2CBXLaL7gF3TVRBZrw3rrOdRB_loHYmXHtzpdgPX8anlVSHsTna2gNVT0GNrV0tlQdKviHpPk0UL-yc81N_KIND7_h96bKOjw8XShRMBObck5nxy2E4o5Zkdw1e0cH9fMK1gQp3e12np1oj90SUB");'></div>
+<div>
+<p class="text-white text-base font-medium leading-normal">Reloj de Buceo Profesional</p>
+<p class="text-[#c9b892] text-sm font-normal leading-normal">$8,900</p>
+<a class="text-[#ecab13] text-sm font-normal leading-normal hover:underline" href="#">Ver Detalles</a>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" data-alt="A sophisticated feminine watch" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBqCu_tiSh7y9sAD0wFKPw39KhFMERaxm7oReVn_Y80_hBGHxeyX5-ZutgV4bqsuk9Je8DyqkSmxq4C8dXAtJ6jLUps__-02nki8godKUlqlfFHuJk2JLEHZvhexUqxUviV04PUDgGgKx3i1x5GQxgAP8n1jrWlsyTxFf6aoaT4GZNVM-2-Bog8gqLX-OoC1k5OvbPS9p3uZd4PtcvqKdVqf71K3GhcMY7yhfWkd5lUDG9OVZ5ajIk2XQyzltQa1w8V7nRhn2PTD6bt");'></div>
+<div>
+<p class="text-white text-base font-medium leading-normal">Reloj Femenino Sofisticado</p>
+<p class="text-[#c9b892] text-sm font-normal leading-normal">$4,800</p>
+<a class="text-[#ecab13] text-sm font-normal leading-normal hover:underline" href="#">Ver Detalles</a>
+</div>
+</div>
+</div>
+<footer class="flex flex-col gap-6 px-5 py-10 text-center @container border-t border-solid border-t-[#483d23] mt-5">
+<div class="flex flex-wrap items-center justify-center gap-6 @[480px]:flex-row @[480px]:justify-around">
+<a class="text-[#c9b892] text-base font-normal leading-normal min-w-40 hover:text-[#ecab13]" href="#">Política de Privacidad</a>
+<a class="text-[#c9b892] text-base font-normal leading-normal min-w-40 hover:text-[#ecab13]" href="#">Términos de Servicio</a>
+</div>
+<div class="flex flex-wrap justify-center gap-4">
+<a href="#">
+<span class="material-symbols-outlined text-[#c9b892] hover:text-[#ecab13]">photo_camera</span>
+</a>
+<a href="#">
+<span class="material-symbols-outlined text-[#c9b892] hover:text-[#ecab13]">social_leaderboard</span>
+</a>
+<a href="#">
+<span class="material-symbols-outlined text-[#c9b892] hover:text-[#ecab13]">alternate_email</span>
+</a>
+<a href="#">
+<span class="material-symbols-outlined text-[#c9b892] hover:text-[#ecab13]">send</span>
+</a>
+</div>
+<p class="text-[#c9b892] text-base font-normal leading-normal">© 2023 Chronos Store. Todos los derechos reservados.</p>
+</footer>
+</div>
+</div>
+</div>
+</div>
+</body></html>
